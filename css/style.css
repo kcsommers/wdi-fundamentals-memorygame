@@ -11,7 +11,7 @@ h1, h2, h3, a {
 }
 
 a {
-	color: #F15B31;
+	color: #FFF;
 	font-weight: 600;
 	font-size: 18px;
 	margin: 0 20px;
@@ -53,6 +53,17 @@ img {
 	margin: 40px 8px 0 8px;
 }
 
+button {
+	outline: none;
+	border: 3px solid #00A6B3;
+	width: 150px;
+	padding: 5px 0;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #F15B31;
+	cursor: pointer;
+}
+
 footer {
 	text-transform: uppercase;
 	padding: 0 20px;
@@ -61,6 +72,16 @@ footer {
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+}
+
+#score {
+	border: 3px solid #00A6B3;
+	width: 144px;
+	padding: 5px 0;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #F15B31;
+	margin: 10px auto;	
 }
 
 .copyright {
